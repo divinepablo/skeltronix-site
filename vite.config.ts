@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [svelte()],
   ssr: {
     noExternal: ["svelte-hero-icons"]
+  },
+  server: { 
+    port: 8080
   }
 })
