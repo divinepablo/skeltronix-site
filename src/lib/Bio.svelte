@@ -16,7 +16,7 @@
   ];
 </script>
 
-<div class="flex justify-center items-center h-[80%]">
+<div class="flex justify-center items-center h-screen">
   <div class="bg-gray-200 dark:bg-gray-700 rounded-lg p-8">
     <div class="flex justify-center">
       <img
