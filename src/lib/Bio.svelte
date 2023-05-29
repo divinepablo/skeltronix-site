@@ -16,8 +16,8 @@
   ];
 </script>
 
-<div class="flex justify-center items-center h-screen">
-  <div class="bg-gray-200 dark:bg-gray-700 rounded-lg p-8">
+<div class="fixed flex justify-center items-center w-screen h-screen">
+  <div class="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl hover:shadow-gray-950 transition-all shadow-gray-950 p-8 min-h-[16rem]">
     <div class="flex justify-center">
       <img
         class="h-16 w-16 rounded-full"

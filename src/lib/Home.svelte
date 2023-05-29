@@ -1,15 +1,11 @@
-<div class="flex flex-col justify-center items-center h-screen">
+<script>
+
+  import Button from './Button.svelte';
+</script><div class="fixed flex flex-col items-center justify-center w-screen h-screen">
     <h1 class="font-sans text-white text-4xl mb-4">skeltronix.xyz</h1>
     <div class="flex flex-row">
-        <a
-            href="#/bio"
-            class="rounded-md bg-indigo-800 border border-black bg-opacity-90 w-[150px] h-12 text-xl text-center flex items-center justify-center font-semibold shadow-md hover:shadow-lg hover:shadow-black transition-all duration-300 mr-4 shadow-black"
-            >Bio</a
-        >
-        <a
-            href="https://forums.skeltronix.xyz"
-            class="rounded-md bg-indigo-800 border border-black bg-opacity-90 w-[150px] h-12 text-xl text-center flex items-center justify-center font-semibold shadow-md hover:shadow-lg hover:shadow-black transition-all duration-300 shadow-black"
-            >Forums</a
-        >
+        <Button href="#/bio">Bio</Button>
+        <Button href="#/projects">Projects</Button>
+        <Button href="https://forums.skeltronix.xyz">Forums</Button>
     </div>
 </div>
