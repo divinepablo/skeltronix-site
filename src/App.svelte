@@ -6,7 +6,7 @@
 
 <main class="overflow-hidden">
   <body
-    class="bg-white dark:bg-gray-900 text-white h-screen w-screen scrollbar-hide"
+    class="bg-gray-900 text-white h-screen w-screen scrollbar-hide"
   >
     <Navbar />
     <Router {routes} />

@@ -17,7 +17,7 @@
 </script>
 
 <div class="fixed flex justify-center items-center w-screen h-screen">
-  <div class="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl hover:shadow-gray-950 transition-all shadow-gray-950 p-8 min-h-[16rem]">
+  <div class="bg-gray-800 rounded-lg shadow-md hover:shadow-xl hover:shadow-gray-950 transition-all shadow-gray-950 p-8 min-h-[16rem]">
     <div class="flex justify-center">
       <img
         class="h-16 w-16 rounded-full"
@@ -26,10 +26,10 @@
       />
     </div>
     <div class="text-center mt-4">
-      <h1 class="text-2xl font-semibold dark:text-white">{name}</h1>
-      <p class="text-gray-600 dark:text-gray-200 mt-2">{profession}</p>
+      <h1 class="text-2xl font-semibold text-white">{name}</h1>
+      <p class="text-gray-200 mt-2">{profession}</p>
       {#each description.split("\n") as desc}
-        <p class="text-gray-600 dark:text-gray-200 mt-2">{desc}</p>
+        <p class="text-gray-200 mt-2">{desc}</p>
       {/each}
       <div class="mt-4 flex items-center">
         <Icon src={Link} class="mr-2" size="20" />
